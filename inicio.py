@@ -10,26 +10,26 @@ def home():
     home.title('home')
     home.geometry("600x500")
 
-    Bienvenida =tk.Label(home,text="!Inicio secion exitoso¡,Bienvenido a Tiktok donde podras visualizar lo que te guste",bg="pink")
+    Bienvenida =tk.Label(home,text="!Inicio secion exitoso¡,Bienvenido a Tiktok donde podras visualizar lo que te guste",bg="yellow")
     Bienvenida.pack()
 
-cuadro = tk.Frame(ventana, bg="violet", bd=4, relief="ridge")
+cuadro = tk.Frame(ventana, bg="pink", bd=4, relief="ridge")
 cuadro.pack(pady=40, padx=20, fill="both", expand=True)
 
-titulo_tikok = tk.Label(cuadro, text= "Bienvenido/a a tiktok", font= "Arial", bg= "violet")
+titulo_tikok = tk.Label(cuadro, text= "Bienvenido/a a tiktok", font= "Arial", bg= "pink")
 titulo_tikok.pack(pady=10)
 
-etiqueta_nombre = tk.Label(cuadro, text="Ingresa tu usuario:", bg= "violet")
+etiqueta_nombre = tk.Label(cuadro, text="Ingresa tu usuario:", bg= "pink")
 etiqueta_nombre.pack(pady=5)
 entrada_nombre = tk.Entry(cuadro)
 entrada_nombre.pack(pady=5)
 
-etiqueta_contrasena= tk.Label(cuadro, text="Ingresa tu contraseña:", bg= "violet")
+etiqueta_contrasena= tk.Label(cuadro, text="Ingresa tu contraseña:", bg= "pink")
 etiqueta_contrasena.pack(pady=5)
 entrada_contrasena = tk.Entry(cuadro)
 entrada_contrasena.pack(pady=5)
 
-usuario_correcto = "Micaela vega"
+usuario_correcto = "micaelita"
 contrasena_correcta = "2222"
 
 def iniciar_sesion():
